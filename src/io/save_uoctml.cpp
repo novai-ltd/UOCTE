@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+#include "exportJpeg.hpp"
 #include "save_uoctml.hpp"
 
 #include <cstddef>
@@ -70,6 +71,13 @@ void save_uoctml(const char *path, const oct_subject &subject, bool anonymize)
 
   for (const auto &scan: subject.scans)
   {
+    string path_slices(path + string("_"));
+    std::vector<int> contourList;
+    QColor contourColor;
+
+    exportSlicesAsJpeg(&scan.second, path_slices, contourList, contourColor);
+
+
     o << "  <scan>\n";
     o << "    <id>" << scan.first << "</id>\n";
     for (const auto &e: scan.second.info)

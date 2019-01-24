@@ -82,8 +82,8 @@ public:
     m->addAction("Change Coloring", this, SLOT(change_coloring()));
     m->addAction("Export for Excel", this, SLOT(export_for_excel()));
     m = menuBar()->addMenu("Converter");
-    m->addAction("Convert files", this, SLOT(convert()));
-    m->addAction("Convert anonymized", this, SLOT(convert_anonymized()));
+    m->addAction("Convert files and export as JPEG and UOCTML", this, SLOT(convert()));
+    m->addAction("Convert anonymized and export as JPEG and UOCTML", this, SLOT(convert_anonymized()));
     setCentralWidget(&w);
     setWindowTitle("Unified OCT Explorer");
     

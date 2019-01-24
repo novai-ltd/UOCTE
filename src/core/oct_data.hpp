@@ -18,6 +18,7 @@
 #define OCT_DATA_HPP
 
 #include <cstdint>
+#include <functional>
 #include <map>
 #include <memory>
 #include <string>
