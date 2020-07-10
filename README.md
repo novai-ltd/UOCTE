@@ -66,3 +66,27 @@ Usage
 ```
 
 
+
+
+Citation
+--------
+
+```
+@inproceedings{lawonn_ophthalvis_2016,
+    address = {Groningen},
+    title = {{OphthalVis} - {Making} {Data} {Analytics} of {Optical} {Coherence} {Tomography} {Reproducible}},
+    isbn = {978-3-03868-017-8},
+    url = {http://dx.doi.org/10.2312/eurorv3.20161109},
+    doi = {10.2312/eurorv3.20161109},
+    booktitle = {{EuroVis} {Workshop} on {Reproducibility}, {Verification}, and {Validation} in {Visualization} ({EuroRV3})},
+    publisher = {The Eurographics Association},
+    author = {Rosenthal, Paul and Ritter, Marc and Kowerko, Danny and Heine, Christian},
+    editor = {Lawonn, Kai and Hlawitschka, Mario and Rosenthal, Paul},
+    month = jun,
+    year = {2016},
+    keywords = {LocalizeIT, Ophthalmology, international, Conference, Talk},
+    pages = {1--5},
+    annote = {Seite2: OCT},
+}
+```
+
